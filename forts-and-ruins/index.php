@@ -14,7 +14,9 @@ document.getElementById("forts-and-ruins").style.color = "black";
 <h1>There will be a game here</h1>
 <h2><i>"The only site for your extraboat needs"</i></h2>
 <p>Actually it's just a developer site. If you want something built like this, don't hesitate to contact me.</p>
+<script src="js/game.js"></script>
 
+</script>
 </div>
 </body>
 </html>
