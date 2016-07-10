@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css">
 <body>
 <?php
    $path = $_SERVER['DOCUMENT_ROOT'];
@@ -12,11 +13,12 @@ document.getElementById("forts-and-ruins").style.color = "black";
 
 <div class="body">
 <h1>There will be a game here</h1>
-<h2><i>"The only site for your extraboat needs"</i></h2>
-<p>Actually it's just a developer site. If you want something built like this, don't hesitate to contact me.</p>
+<h2><i>"wow!"</i> - actual user</h2>
+<p>What are you waiting for?</p>
+<div id="svg-holder"><div>
 <script src="js/game.js"></script>
 
-</script>
+
 </div>
 </body>
 </html>
