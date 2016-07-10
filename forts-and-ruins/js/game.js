@@ -36,8 +36,8 @@ var fields = []
 var fieldsbycolor = [[],[],[],[],[],[]]
 var livefieldids = []
 var forts = []
-
-var draw = SVG('svg-holder').size(600, 600+navh).spof()
+var colorbar
+var draw = SVG('svg-holder').size(600, 600+navh).spof().style("margin: 0 auto; display: block;")
 
 startgame()
 function startgame(){
@@ -75,7 +75,7 @@ function startgame(){
     button.on('click', newfield)
     buttons.push(button)
   }
-  var colorbar = draw.rect(width, side/4).fill(fieldcolors[fieldselect]).move(0, side)
+  colorbar = draw.rect(width, side/4).fill(fieldcolors[fieldselect]).move(0, side)
 
 
 

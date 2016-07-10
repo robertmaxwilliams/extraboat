@@ -16,8 +16,9 @@ html {
   margin-left: 10%;
   margin-right: 10%;
   background-color: white;
-  height: 100%;
+  min-height: 100vh;
   padding: 1em;
+  background-color: #ffffff;
 }
 
 body {
@@ -25,6 +26,8 @@ body {
   height: 100%;
   background-color: #e1e3e4;
 }
+
+
 
 .icon {
   height: 6em;
